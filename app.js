@@ -58,7 +58,8 @@ if(userfinalchoice === 'rock' && compFinalChoice ==='scissors' ){
    $("#selectionButtonsDisplay").hide();
    $("#computerwins").show();
 }else if(userfinalchoice === 'rock' && compFinalChoice ==='rock' ){
-  console.log("its draw");
+   $("#selectionButtonsDisplay").hide();
+    $("#tie").show();;
 }else if(userfinalchoice === 'rock' && compFinalChoice ==='paper' ){
    $("#selectionButtonsDisplay").hide();
    $("#computerwins").show();
